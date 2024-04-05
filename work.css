@@ -40,6 +40,15 @@ nav ul{
 .logo h1{
     font-size: 40px;
 }
+.list ul img{
+    /* opacity: 1; */
+    /* border: 2px solid black; */
+    background-color: none;
+    margin-top: -5px;
+    cursor: pointer;
+    width: 30px;
+    /* height: 50px; */
+}
 .hero h1{
     padding-top: 10vw;
     font-size: 66px;
@@ -87,13 +96,9 @@ nav ul{
 }
 
 .section1-2{
-    /* height: 90vh; */
     margin-bottom: 19px;
 }
 .pix{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 30px;
@@ -123,6 +128,7 @@ nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 10vw;
+    margin-top: 110px;
     
 }
 .extra h2{
@@ -160,14 +166,74 @@ nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 140px;
-    /* padding-top: 40px; */
+}
+.section5{
+    background: rgba(192, 226, 238, 0.548);
+    padding: 60px;
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+}
+.text5 h4.hello{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+.section5 h4{
+    color: black;
+    font-size: 21px;
+}
+p.hel{
+    width: 400px;
+}
+.text5 p{
+    color: black;
+}
+.section5 ul li{
+    list-style: none;
+    padding: 10px 0px 3px 0px;
+}
+.section5 li a{
+    text-decoration: none;
+    color: black;
+}
+.text5 h4{
+    margin-bottom: 19px;
+}
+a.map{
+    color: #6d9bcf;
+    font-weight: 600;
+    text-decoration: none;
+}
+.sect5 .pmap{
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+.logoo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+.logoo ul{
+    display: flex;
+    gap: 19px;
+}
+.logoo ul li a img{
+    width: 30px;
+}
+.sect5 .image6{
+    width: 168px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-
 @media(max-width:1024px){
-    /* .list{
-        display: none;
-    } */
+
     nav{
         padding: 20px;
     }
@@ -177,7 +243,6 @@ nav ul{
         padding-left: 30px;
         padding-top: 10vw;
         gap: 10px;
-        /* padding-bottom: -100px; */
     }
     .hero h1{
         padding-top: 25vw;
@@ -200,4 +265,20 @@ nav ul{
   .list{
         display: none;
     } 
+    .pix{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 19px;
+    }
+    .pic img{
+        width: 10;
+    }
+    .section1-2{
+        margin-bottom: 49px;
+    }
+    .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
