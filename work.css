@@ -216,7 +216,7 @@ a.map{
 }
 .logoo ul{
     display: flex;
-    gap: 19px;
+    gap: 10px;
 }
 .logoo ul li a img{
     width: 30px;
@@ -230,6 +230,10 @@ a.map{
     height: 30px;
     align-items: center;
     justify-content: center;
+}
+.foot2{
+    background-color: #292428;
+    color: white;
 }
 
 @media(max-width:1024px){
