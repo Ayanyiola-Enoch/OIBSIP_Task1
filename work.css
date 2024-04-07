@@ -296,24 +296,24 @@ a.map{
     .pic img{
         width: 50vw;
     }
+    .pic1{
+        display: none;
+    }
     .section1-2{
         margin-bottom: 49px;
     }
     .section2{
         display: grid;
         grid-template-columns: 1fr;
-        /* padding-left: 10vw; */
-        margin-top: 110px;   
+        height: 60vh;
     }
     .section3{
-        height: 75vh;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+        grid-template-columns: 1fr;
+        padding-left: 38px;
+        gap: 0px;
     }
     .section5{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        display: none;
     }
 }
