@@ -114,7 +114,6 @@ nav ul{
     border-radius: 40px;
 }
 .first{
-    /* display: flex; */
     text-align: center;
 }
 .first h2{
@@ -128,8 +127,7 @@ nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 10vw;
-    margin-top: 110px;
-    
+    margin-top: 110px;   
 }
 .extra h2{
     padding-top: 4.3vw;
@@ -266,19 +264,52 @@ a.map{
 
 }
 @media(max-width:767px){
+    main{
+        overflow-x: hidden;
+    }
   .list{
         display: none;
-    } 
+    }
+    .btn{
+        padding: 17px 23px;
+        border: none;
+        border-radius: 39px;
+    }
+    .section1{
+        margin-bottom: 20px;
+    }
+    .section1-2 h1{
+        padding-top: 4.3vw;
+        text-align: left;
+        margin-left: 30px;
+    }
     .pix{
         display: grid;
         grid-template-columns: 1fr;
+        padding: 0px;
         gap: 19px;
     }
+    .first img{
+        width: 65%;
+        border-radius: 40px;
+    }
     .pic img{
-        width: 10;
+        width: 50vw;
     }
     .section1-2{
         margin-bottom: 49px;
+    }
+    .section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* padding-left: 10vw; */
+        margin-top: 110px;   
+    }
+    .section3{
+        height: 75vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
     }
     .section5{
         display: flex;
