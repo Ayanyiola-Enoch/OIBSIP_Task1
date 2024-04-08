@@ -47,8 +47,10 @@ nav ul{
     margin-top: -5px;
     cursor: pointer;
     width: 30px;
-    /* height: 50px; */
 }
+.icon{
+    display: none;
+    }
 .hero h1{
     padding-top: 10vw;
     font-size: 66px;
@@ -243,8 +245,8 @@ a.map{
         display: flex;
         flex-direction: column;
         padding-left: 30px;
-        padding-top: 10vw;
-        gap: 10px;
+        gap: 0px;
+        height: 60vh;
     }
     .hero h1{
         padding-top: 25vw;
@@ -261,6 +263,9 @@ a.map{
     .organic {
         padding-top: -70vw;
     }
+    .icon{
+    display: none;
+    }
 
 }
 @media(max-width:767px){
@@ -269,6 +274,12 @@ a.map{
     }
   .list{
         display: none;
+    }
+    .icon{
+        display: block;
+        width: 28px;
+        /* border: 2px solid black; */
+        cursor: pointer;
     }
     .btn{
         padding: 17px 23px;
@@ -293,8 +304,8 @@ a.map{
         width: 65%;
         border-radius: 40px;
     }
-    .pic img{
-        width: 50vw;
+    .pic {
+        display: none;
     }
     .pic1{
         display: none;
@@ -312,6 +323,7 @@ a.map{
         grid-template-columns: 1fr;
         padding-left: 38px;
         gap: 0px;
+        margin-bottom: 30px;
     }
     .section5{
         display: none;
