@@ -1,19 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
     object-fit: cover;
 }
-a{
+
+a {
     color: white;
     cursor: pointer;
 }
-body{
+
+body {
     overflow-x: hidden;
     /* margin: auto; */
 }
-.head{
+
+.head {
     background: url(home-cover.webp);
     background-position: center;
     background-size: cover;
@@ -21,44 +24,51 @@ body{
     /* background-repeat: no-repeat; */
     height: 100vh;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    padding:30px 70px;
+    padding: 30px 70px;
     align-items: center;
     /* position: fixed; */
     /* background-color: transparent; */
 }
-nav ul{
-    display: flex;   
+
+nav ul {
+    display: flex;
     gap: 50px;
 }
 
-.logo{
-    padding: 10px;   
+.logo {
+    padding: 10px;
 }
-.logo h1{
+
+.logo h1 {
     font-size: 40px;
 }
-.list ul img{
+
+.list ul img {
     /* opacity: 1; */
     /* border: 2px solid black; */
     background-color: none;
     margin-top: -5px;
     cursor: pointer;
-    width: 30px;
+    width: 25px;
 }
-.icon{
+
+.icon {
     display: none;
-    }
-.hero h1{
+}
+
+.hero h1 {
     padding-top: 10vw;
     font-size: 66px;
     text-align: center;
     color: white;
     font-family: century gothic medium;
 }
-.section1{
+
+.section1 {
     height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -66,23 +76,27 @@ nav ul{
     gap: 140px;
     padding-top: 10vw;
 }
-.pic img{
+
+.pic img {
     /* padding-top: 30px; */
     border-top-right-radius: 100vw;
     width: 100%;
-    border-bottom-right-radius:100vw;
+    border-bottom-right-radius: 100vw;
 }
-.organic h2{
+
+.organic h2 {
     padding-top: 4.3vw;
     font-size: 33px;
     font-family: century gothic medium;
 }
-.organic p{
+
+.organic p {
     font-family: century gothic;
     padding-bottom: 18px;
     color: grey;
 }
-.btn{
+
+.btn {
     background: rgba(192, 226, 238, 0.548);
     color: rgba(0, 0, 255, 0.603);
     padding: 23px 37px;
@@ -92,61 +106,72 @@ nav ul{
     font-size: 19px;
     transition: 0.6s ease;
 }
-.btn:hover{
+
+.btn:hover {
     background: rgba(0, 0, 255, 0.603);
     color: white;
 }
 
-.section1-2{
+.section1-2 {
     margin-bottom: 19px;
 }
-.pix{
+
+.pix {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-left: 30px;
     /* text-align: center; */
 }
-.section1-2 h1{
+
+.section1-2 h1 {
     font-family: century gothic medium;
     text-align: center;
     padding-bottom: 45px;
 }
-.first img{
+
+.first img {
     width: 85%;
     border-radius: 40px;
 }
-.first{
+
+.first {
     text-align: center;
 }
-.first h2{
+
+.first h2 {
     padding-top: 10px;
     font-size: 20px;
     font-family: century gothic medium;
     /* font-weight: light; */
 }
-.section2{
+
+.section2 {
     height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 10vw;
-    margin-top: 110px;   
+    margin-top: 110px;
 }
-.extra h2{
+
+.extra h2 {
     padding-top: 4.3vw;
     font-size: 33px;
     font-family: century gothic medium;
 }
-.extra p{
+
+.extra p {
     font-family: century gothic;
     padding-bottom: 28px;
     color: grey;
 }
-.pic1 img{
+
+.pic1 img {
     width: 100%;
     border-top-left-radius: 100vw;
-    border-bottom-left-radius:100vw;
+    border-bottom-left-radius: 100vw;
 }
-.btn1{
+
+.btn1 {
     background: rgba(0, 0, 255, 0.603);
     color: white;
     padding: 21px 37px;
@@ -157,175 +182,213 @@ nav ul{
     transition: 0.6s ease;
 }
 
-.btn1:hover{
+.btn1:hover {
     color: white;
     background: rgba(0, 0, 255, 0.849);
 }
-.section3{
+
+.section3 {
     height: 75vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 140px;
 }
-.section5{
+
+.section5 {
     background: rgba(192, 226, 238, 0.548);
     padding: 60px;
     height: 33vh;
     display: flex;
     justify-content: space-between;
 }
-.text5 h4.hello{
+
+.text5 h4.hello {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 19px;
 }
-.section5 h4{
+
+.section5 h4 {
     color: black;
     font-size: 21px;
 }
-p.hel{
+
+p.hel {
     width: 400px;
 }
-.text5 p{
+
+.text5 p {
     color: black;
 }
-.section5 ul li{
+
+.section5 ul li {
     list-style: none;
     padding: 10px 0px 3px 0px;
 }
-.section5 li a{
+
+.section5 li a {
     text-decoration: none;
     color: black;
 }
-.text5 h4{
+
+.text5 h4 {
     margin-bottom: 19px;
 }
-a.map{
+
+a.map {
     color: #6d9bcf;
     font-weight: 600;
     text-decoration: none;
 }
-.sect5 .pmap{
+
+.sect5 .pmap {
     margin-top: 15px;
     margin-bottom: 19px;
 }
-.logoo{
+
+.logoo {
     display: flex;
     flex-direction: column;
     margin-bottom: 14px;
 }
-.logoo ul{
+
+.logoo ul {
     display: flex;
     gap: 10px;
 }
-.logoo ul li a img{
+
+.logoo ul li a img {
     width: 30px;
 }
-.sect5 .image6{
+
+.sect5 .image6 {
     width: 168px;
     margin-bottom: 20px;
 }
-.container{
+
+.container {
     display: flex;
     height: 30px;
     align-items: center;
     justify-content: center;
 }
-.foot2{
+
+.foot2 {
     background-color: #292428;
     color: white;
 }
 
-@media(max-width:1024px){
+@media(max-width:1024px) {
 
-    nav{
+    nav {
         padding: 20px;
     }
-    .section1{
+
+    .section1 {
         display: flex;
         flex-direction: column;
         padding-left: 30px;
         gap: 0px;
         height: 60vh;
     }
-    .hero h1{
+
+    .hero h1 {
         padding-top: 25vw;
     }
-    .pic img{
+
+    .pic img {
         width: 70%;
     }
-    .pic{
+
+    .pic {
         padding-bottom: -40px;
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
+
     .organic {
         padding-top: -70vw;
     }
-    .icon{
-    display: none;
+
+    .icon {
+        display: none;
     }
 
 }
-@media(max-width:767px){
-    main{
+
+@media(max-width:767px) {
+    main {
         overflow-x: hidden;
     }
-  .list{
+
+    .list {
         display: none;
     }
-    .icon{
+
+    .icon {
         display: block;
         width: 28px;
         /* border: 2px solid black; */
         cursor: pointer;
     }
-    .btn{
+
+    .btn {
         padding: 17px 23px;
         border: none;
         border-radius: 39px;
     }
-    .section1{
+
+    .section1 {
         margin-bottom: 20px;
     }
-    .section1-2 h1{
+
+    .section1-2 h1 {
         padding-top: 4.3vw;
         text-align: left;
         margin-left: 30px;
     }
-    .pix{
+
+    .pix {
         display: grid;
         grid-template-columns: 1fr;
         padding: 0px;
         gap: 19px;
     }
-    .first img{
+
+    .first img {
         width: 65%;
         border-radius: 40px;
     }
+
     .pic {
         display: none;
     }
-    .pic1{
+
+    .pic1 {
         display: none;
     }
-    .section1-2{
+
+    .section1-2 {
         margin-bottom: 49px;
     }
-    .section2{
+
+    .section2 {
         display: grid;
         grid-template-columns: 1fr;
         height: 60vh;
     }
-    .section3{
+
+    .section3 {
         display: grid;
         grid-template-columns: 1fr;
         padding-left: 38px;
         gap: 0px;
         margin-bottom: 30px;
     }
-    .section5{
+
+    .section5 {
         display: none;
     }
 }
