@@ -413,14 +413,17 @@ a.map {
         display: block;
     }
 
+    .logo h1 {
+        font-size: 20px;
+    }
+
     .list {
         display: none;
     }
 
     .icon {
         display: block;
-        width: 28px;
-        /* border: 2px solid black; */
+        width: 20px;
         cursor: pointer;
     }
 
